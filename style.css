@@ -76,8 +76,8 @@ main {
   border: 1px solid var(--blue);
   border-radius: 1.75rem;
   color: var(--blue);
-  padding: 18px 30px;
-  width: 421px;
+  padding: 1.125rem 1.875rem;
+  width: 26.3125rem;
 }
 .cta__input--error {
   border: 1px solid var(--light-red);
@@ -89,7 +89,7 @@ main {
   background-color: var(--blue);
   color: var(--white);
   font-weight: var(--fw-600);
-  width: 200px;
+  width: 12.5rem;
 }
 .cta__btn:hover {
   cursor: pointer;
@@ -120,13 +120,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 11.71px;
+  gap: 0.7319rem;
   margin-block-end: 1.5625rem;
 }
 .footer__socials a {
   border-radius: 50%;
   border: 1px solid var(--gray);
-  padding: 8px 12px 8px 12px;
+  padding: 0.5rem 0.75rem;
   color: var(--blue);
 }
 .footer__socials a:hover {
@@ -148,4 +148,42 @@ main {
 }
 .footer__attribution a {
   color: var(--blue);
+}
+@media (max-width: 48rem) {
+  body {
+    margin-block-start: 5.0625rem;
+    margin-block-end: 2.3125rem;
+  }
+  .hero__title {
+    font-size: var(--fs-22);
+    line-height: 2rem;
+  }
+  .hero__text {
+    font-size: var(--fs-12);
+  }
+  .cta {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .cta__input {
+    width: 17.5625rem;
+  }
+  .cta__btn {
+    width: 17.625rem;
+    height: 2.5rem;
+  }
+  .message {
+    position: relative;
+    top: -30px;
+    left: 170px;
+  }
+  .dashboard {
+    max-width: 20rem;
+    margin-block-start: 4.5rem;
+    margin-block-end: 7.5rem;
+  }
+  .footer__copy,
+  .footer__attribution {
+    font-size: var(--fs-10);
+  }
 }
