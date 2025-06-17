@@ -28,17 +28,19 @@
       </div>
       <form action="#" class="cta">
         <label class="sr-only" for="email">Email Adress</label>
-        <input
-          class="cta__input"
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Your email adress..."
-          autocomplete="email"
-        />
+        <div class="cta__wrapper">
+          <input
+            class="cta__input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email adress..."
+            autocomplete="email"
+          />
+          <div class="cta__message" aria-live="assertive"></div>
+        </div>
         <button class="cta__btn" type="submit">Notify Me</button>
       </form>
-      <div class="message" aria-live="assertive"></div>
       <img class="dashboard" src="./images/illustration-dashboard.png" alt="Dashboard" />
     </main>
     <footer>
