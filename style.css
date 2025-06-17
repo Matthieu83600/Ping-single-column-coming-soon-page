@@ -91,6 +91,7 @@ main {
   font-size: var(--fs-12);
   color: var(--light-red);
   margin-inline-start: 1.875rem;
+  display: none;
 }
 .cta__btn {
   border: none;
@@ -177,6 +178,7 @@ main {
     text-align: center;
     margin-inline-start: 0;
     margin-block-end: 1.25rem;
+    font-size: var(--fs-10);
     display: none;
   }
   .cta__btn {
